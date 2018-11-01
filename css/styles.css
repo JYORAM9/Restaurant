@@ -1,0 +1,14 @@
+<style>
+.select1{
+  margin: auto;
+  text-align: center;
+}
+
+#map{
+      position: absolute;
+      right: 0;
+      top: 20%;
+      width:50%;
+      height:80%;
+  }
+</style>

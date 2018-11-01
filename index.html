@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel ="stylesheet" href="css/styles.css">
+		<title> Restaurants/Cuisine </title>
+	</head>
+
+
+
+<body style="background-color:#808000">
+	<header>
+		<h1 align="center"> Restaurants/Cuisine </h1>
+	</header>
+
+	<div id="select1" class="select1" align="center" >
+		<form id="Selection" name="Selection">
+			<label for="Category">Select Category</label>
+				<select id="Category" size="1">
+					<option value="Fine Dining & Huntsville Originals">Fine Dining & Huntsville Originals</option>
+					<option value="Sandwich Shops">Sandwich Shops</option>
+					<option value="Asian">Asian</option>
+					<option value="Steak & Seafood">Steak & Seafood</option>
+					<option value="Mexican & Southwestern">Mexican & Southwestern</option>
+					<option value="American">American</option>
+					<option value="Fast Food">Fast Food</option>
+					<option value="European">European</option>
+					<option value="Bakeries, Cakeries">Bakeries, Cakeries</option>
+					<option value="Tea & Coffee">Tea & Coffee</option>
+					<option value="Pizza">Pizza</option>
+					<option value="Central & South American">Central & South American</option>
+					<option value="Sweet Eats & Snacks">Sweet Eats & Snacks</option>
+					<option value="Cajun">Cajun</option>
+				</select>
+		</form>
+		<button id="btn" type="submit" align="center">Submit</button>
+	</div>
+
+
+
+	<div id='Restaurant-info' style="width: 50%; height: 80%; background-color:	#F0E68C;overflow-y: scroll;"></div>
+
+	<div id="map"></div>
+
+
+
+
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9kJfIXwSgD4By0jRjVi7yNb0sATl38Js&callback=initMap"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
